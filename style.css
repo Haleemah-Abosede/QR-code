@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: hsl(212, 45%, 89%)  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.code{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 6rem;
+    border-radius: 10px;
+    padding: .85rem;
+    width: 20%;
+}
+
+.code img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.code h2{
+    margin-top: .9rem;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.code p{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: .9rem;
+    margin-bottom: 1.4rem;
+    color: hsl(220, 15%, 55%) ;
+}
+
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3.5vh;
+    
+ }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width:1232px){
+    .code{
+        padding: .8rem;
+        width: 25%;
+    }
+    .code h2{
+        font-size: 21px;
+        padding: 0 1rem;
+    }
+    .code p{
+        font-size: 16px;
+        padding: 0 1rem;
+    }
+ }
+
+ @media(max-width:1084px){
+    .code h2, .code p{
+        padding: 0 .3rem;
+    }
+    .code h2{
+        font-size: 20px;
+    }
+    .code p{
+        font-size: 15px;
+    }
+    .attribution { 
+        position: static;
+       
+    }
+ }
+
+
+
+ @media(max-width:991px){
+    .code{
+        padding: .8rem;
+        width: 27%;
+    }
+}
+
+
+@media(max-width:768px){
+    .code{
+        padding: .8rem;
+        width: 33%;
+    }
+}
+
+@media(max-width:620px){
+    .code{
+        padding: .8rem;
+        width: 35%;
+    }
+}
+
+@media(max-width:540px){
+    .code{
+        padding: .8rem;
+        width: 40%;
+    }
+}
+
+@media(max-width:460px){
+    .code{
+        padding: .8rem;
+        width: 58%;
+    }
+}
+
+@media(max-width:375px){
+    .code{
+        padding: .8rem;
+        width: 80%;
+    }
+}
